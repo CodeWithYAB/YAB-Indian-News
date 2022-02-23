@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Toolbar.module.css';
 
 export const Toolbar = () => {
@@ -13,6 +14,8 @@ export const Toolbar = () => {
     <div className={styles.main}>
       <div onClick={() => router.push('/')}>Home</div>
       <div onClick={() => router.push('/news/1')}>News</div>
+      <div onClick={() => window.location.href = 'https://yab-news.vercel.app/' }>More News sources</div>
+
     </div>
     </>
   );

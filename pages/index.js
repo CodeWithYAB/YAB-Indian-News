@@ -17,19 +17,6 @@ export default function Home() {
         <h1><span>Welcome to </span>YAB News</h1>
         <h2>Keep yourself updated with the Top Indian News!!</h2>
       </div>
-      
-	<footer className={styles.footer}>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            YAB News
-          </a>
-        </footer>
-
-      
     </div>
     </div>
   );
